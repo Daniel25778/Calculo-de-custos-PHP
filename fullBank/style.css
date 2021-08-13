@@ -12,13 +12,13 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(#ccc, white);
+    background-image: linear-gradient(rgb(28, 30, 202), rgb(15, 230, 212));
 }
 
 form {
-    ba display: flex;
+    display: flex;
     flex-direction: column;
-    box-shadow: 0px 5px 10px gray, 0px 5px 20px gray;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0), 0px 5px 20px rgb(10, 10, 10);
     padding: 30px;
     background-color: white;
     width: 30vw;
@@ -33,7 +33,7 @@ main {
     align-items: center;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(rgb(51, 109, 136), rgb(36, 35, 131));
+    background-image: linear-gradient(rgb(51, 109, 136), rgb(16, 12, 236));
     font-size: 50px;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
