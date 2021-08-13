@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular média</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <form method="POST" action="./calculo.php">
+        <h1>FULL BANK</h1>
+
+        <label for="nome">Nome:</label>
+        <input id="nome" name="nome" value="" required/>
+
+
+        <label for="salarioAtual">Salário atual</label>
+        <input id="salarioAtual" name="salarioAtual" value="" required/>
+
+
+        <div class="input-radio">
+
+            <input type="radio" name="genero" id="masculino" value="m">
+            <label for="masculino">Masculino</label>
+        </div>
+
+        <div class="input-radio">
+
+            <input type="radio" name="genero" id="feminino" value="f">
+            <label for="feminino">Feminino</label>
+        </div>
+
+        <div class="input-radio" style="margin-bottom: 10px;">
+
+            <input type="radio" name="genero" id="outros" value="o">
+            <label for="outros">Outros</label>
+        </div>
+
+
+        <label for="cargo">Cargo</label>
+        <select id="cargo" name="cargo" value="cargo" required>
+            <option value="" disabled selected >SELECIONE</option>
+            <option >Diretor Financeiro</option>
+            <option >Diretor de marketing</option>
+            <option>Diretor de TI</option>
+            <option >Gerente</option>
+            </select>
+
+        <button>Calcular</button>
+    </form>
+</body>
